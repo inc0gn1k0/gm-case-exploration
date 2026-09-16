@@ -1,0 +1,21 @@
+# Ignore everything unless explicitly allowed below.
+# This excludes generated workbooks, presentations, PDFs, scratch analysis,
+# virtual environments, Python caches, editor settings and OS metadata.
+*
+
+# Project configuration and cleaned analysis.
+!/.gitignore
+!/requirements.txt
+!/gm-exploration-cleaned.py
+
+# Local plotting helper imported by the cleaned analysis.
+!/plot_theme.py
+
+# Working source workbook read by the script.
+!/GM-Case-study-Data-2026.xlsx
+
+# Original source workbook and exchange-rate input required by the analysis.
+!/Source-Material/
+/Source-Material/*
+!/Source-Material/GM Case study Data 2026.xlsx
+!/Source-Material/exchange-rates-zar-2020-2022.csv

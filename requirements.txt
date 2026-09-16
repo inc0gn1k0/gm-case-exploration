@@ -1,0 +1,6 @@
+# Dependencies for gm-exploration-cleaned.py and plot_theme.py.
+matplotlib
+numpy
+pandas
+openpyxl
+Pillow
