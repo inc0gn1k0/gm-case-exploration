@@ -6,6 +6,7 @@
 # Project configuration and cleaned analysis.
 !/.gitignore
 !/requirements.txt
+!/README.md
 !/gm-exploration-cleaned.py
 
 # Local plotting helper imported by the cleaned analysis.
